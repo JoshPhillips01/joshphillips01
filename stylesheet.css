@@ -1,0 +1,310 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+@import url('https://fonts.googleapis.com/css?family=PT+Serif+Caption:400,400i');
+
+body {
+  background-color: #FFFFFF;
+  margin: 0;
+  font-family: 'Maven Pro', sans-serif;
+  color: black;
+}
+
+* {
+  outline: 1px dotted red;
+}
+#photographerOverlay {
+  position: relative;
+  left: -300px;
+  top: -250px;
+  -ms-transform: rotate(270deg); /* IE 9 */
+   -webkit-transform: rotate(270deg); /* Chrome, Safari, Opera */
+   transform: rotate(270deg);
+   letter-spacing: 5px;
+   font-size: 0.75rem;
+ }
+
+  #photographerOverlay a {
+   color: black;
+   text-decoration: none;
+}
+
+#artistOverlay {
+  position: relative;
+  left: 70px;
+  top: 360px;
+  letter-spacing: 5px;
+  font-size: 0.75rem;
+}
+  #artistOverlay a {
+   color: black;
+   text-decoration: none;
+}
+
+#designerOverlay {
+  position: relative;
+  left: 375px;
+  top: 60px;
+  letter-spacing: 5px;
+  color: white; opacity: 0.5;
+  font-size: 0.75rem;
+  -ms-transform: rotate(270deg); /* IE 9 */
+   -webkit-transform: rotate(270deg); /* Chrome, Safari, Opera */
+   transform: rotate(270deg);
+}
+
+#designOverlay a {
+ color: white; opacity: 0.5;
+ text-decoration: none;
+}
+
+#typographerOverlay {
+  position: relative;
+  left: 395px;
+  top: -200px;
+  letter-spacing: 5px;
+  font-size: 0.75rem;
+  -ms-transform: rotate(270deg); /* IE 9 */
+   -webkit-transform: rotate(270deg); /* Chrome, Safari, Opera */
+   transform: rotate(270deg);
+}
+
+#designOverlay a {
+ color: black;
+ text-decoration: none;
+}
+
+#header {
+  background-color: #ECF0F1;
+
+}
+#headerContainer{
+  height: 735px;
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+
+
+}
+#logo {
+  font-family: 'Lato';
+  font-weight: 700;
+  width: 960px;
+  font-size: 3rem;
+  text-align: center;
+  margin: 0;
+}
+
+#banner {
+  width: 960px;
+  height:562px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5px;
+}
+
+#bannerImg {
+  width: 100%;
+  max-width: 960px;
+  max-height: 562px;
+  text-align: center;
+}
+
+#linksContainer {
+  height: 35px;
+  width: 960px;
+  background-color: #ECF0F1;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1rem;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 10px;
+  border-top: 2px solid black;
+
+}
+
+#links a {
+  color: black;
+  text-decoration: none;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+  /* Need to add an anchor point? */
+#aboutMe {
+  height: 340px;
+  padding: 60px 0px ;
+  background-color: #036273; opacity: 0.9;
+  color: white;
+}
+#aboutMeContainer {
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#intro {
+  width: 960px;
+  height: 320px;
+  float: left;
+
+}
+#intro h3 {
+  font-size: 3rem;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+#intro ul {
+  font-size: 1.2rem;
+}
+
+#portfolio {
+  height: 450px;
+  background-color: #DADADA;
+  padding: 70px 0px;
+
+}
+
+#portfolioContainer {
+  width: 960px;
+  height: 447px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1.2rem;
+}
+
+#portfolioContainer h3 {
+  color: #036273;
+  font-size: 3rem;
+  margin: 0;
+}
+
+#portfolioLinks {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 960px;
+  margin-top: 20px;
+}
+
+#portfolioLinks a {
+  color: black;
+  font-size: 1.2rem;
+  float: left;
+  width: 300px;
+  text-align: center;
+  margin-left: 15px;
+  text-decoration: none;
+}
+
+#portfolioImage {
+  width: 960px;
+  height: 330px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#portfolioImage div {
+  width: 300px;
+  height: 300px;
+  float: left;
+  margin-left: 15px;
+}
+
+#photographyWork {
+  height: 1275px;
+  background-color: #036273;
+  padding: 70px 0px;
+}
+
+#photographyWorkContainer {
+  width: 960px;
+  height: 1250px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+  color: white;
+}
+
+#photographyWorkContainer h3 {
+  font-size: 3rem;
+  text-decoration: none;
+  margin: 0;
+}
+
+#photographyWorkContainer p {
+  font-size: 1.2rem;
+}
+
+#photographyWorkImages div {
+  width: 465px;
+  height: 368px;
+  float: left;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+#tShirtWork {
+  height: 2000px;
+  background-color: #ECF0F1;
+  padding: 70px 0px;
+}
+
+#tShirtWorkContainer {
+  width: 960px;
+  height: 2000px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+  color: black;
+}
+
+#tShirtWorkContainer h3 {
+  font-size: 3rem;
+  text-decoration: none;
+  margin: 0;
+}
+
+#tShirtWorkContainer p {
+  font-size: 1.2rem;
+}
+
+#tShirtWorkImages div {
+  width: 465px;
+  height: 620px;
+  float: left;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+
+#posterWork {
+  height: 1550px;
+  background-color: #036273;
+  padding: 70px 0px;
+}
+
+#posterWorkContainer {
+  width: 960px;
+  height: 1550px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+  color: white;
+}
+
+#posterWorkContainer h3 {
+  font-size: 3rem;
+  text-decoration: none;
+  margin: 0;
+}
+
+#posterWorkContainer p {
+  font-size: 1.2rem;
+}
+
+#posterWorkImages div {
+  width: 465px;
+  height: 465px;
+  float: left;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
