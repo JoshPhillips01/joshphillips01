@@ -7,10 +7,11 @@ body {
   font-family: 'Maven Pro', sans-serif;
   color: black;
 }
-
+/*
 * {
   outline: 1px dotted red;
 }
+*/
 #photographerOverlay {
   position: relative;
   left: -300px;
@@ -77,7 +78,7 @@ body {
 
 }
 #headerContainer{
-  height: 735px;
+  height: 740px;
   width: 960px;
   margin-left: auto;
   margin-right: auto;
@@ -129,9 +130,10 @@ body {
   padding-left: 100px;
   padding-right: 100px;
 }
-  /* Need to add an anchor point? */
+
+  /* -----------------------About Me */
 #aboutMe {
-  height: 340px;
+  height: 540px;
   padding: 60px 0px ;
   background-color: #036273; opacity: 0.9;
   color: white;
@@ -143,7 +145,7 @@ body {
 }
 #intro {
   width: 960px;
-  height: 320px;
+  height: 540px;
   float: left;
 
 }
@@ -156,9 +158,10 @@ body {
 #intro ul {
   font-size: 1.2rem;
 }
+/* ----------------------------- Portfolio/Work */
 
 #portfolio {
-  height: 450px;
+  height: 700px;
   background-color: #DADADA;
   padding: 70px 0px;
 
@@ -166,7 +169,7 @@ body {
 
 #portfolioContainer {
   width: 960px;
-  height: 447px;
+  height: 600px;
   margin-left: auto;
   margin-right: auto;
   font-size: 1.2rem;
@@ -183,6 +186,8 @@ body {
   margin-right: auto;
   max-width: 960px;
   margin-top: 20px;
+  height: 23px;
+  padding-top: 100px;
 }
 
 #portfolioLinks a {
@@ -202,6 +207,7 @@ body {
   margin-right: auto;
 }
 
+  /* ----------------------- Photograghy Works */
 #portfolioImage div {
   width: 300px;
   height: 300px;
@@ -210,14 +216,14 @@ body {
 }
 
 #photographyWork {
-  height: 1275px;
+  height: 1320px;
   background-color: #036273;
   padding: 70px 0px;
 }
 
 #photographyWorkContainer {
   width: 960px;
-  height: 1250px;
+  height: 1290px;
   margin-left: auto;
   margin-right: auto;
   padding-top: 20px;
@@ -234,23 +240,31 @@ body {
   font-size: 1.2rem;
 }
 
+#photographyWorkImages {
+  padding-top: 40px;
+
+}
+
 #photographyWorkImages div {
   width: 465px;
   height: 368px;
   float: left;
   margin-left: 10px;
   margin-bottom: 10px;
+
 }
 
+  /* -----------------------T-shirt Works */
+
 #tShirtWork {
-  height: 2000px;
+  height: 2100px;
   background-color: #ECF0F1;
   padding: 70px 0px;
 }
 
 #tShirtWorkContainer {
   width: 960px;
-  height: 2000px;
+  height: 2050px;
   margin-left: auto;
   margin-right: auto;
   padding-top: 20px;
@@ -267,6 +281,10 @@ body {
   font-size: 1.2rem;
 }
 
+#tShirtWorkImages {
+  padding-top: 40px;
+}
+
 #tShirtWorkImages div {
   width: 465px;
   height: 620px;
@@ -275,16 +293,17 @@ body {
   margin-bottom: 10px;
 }
 
+/* -----------------------Poster Works */
 
 #posterWork {
-  height: 1550px;
+  height: 1630px;
   background-color: #036273;
   padding: 70px 0px;
 }
 
 #posterWorkContainer {
   width: 960px;
-  height: 1550px;
+  height: 1600px;
   margin-left: auto;
   margin-right: auto;
   padding-top: 20px;
@@ -300,7 +319,9 @@ body {
 #posterWorkContainer p {
   font-size: 1.2rem;
 }
-
+#posterWorkImages{
+  padding-top: 40px;
+}
 #posterWorkImages div {
   width: 465px;
   height: 465px;
