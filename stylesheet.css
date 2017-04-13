@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=PT+Serif+Caption:400,400i');
 
 body {
-  background-color: #FFFFFF;
+  background-color: #ECF0F1;
   margin: 0;
   font-family: 'Maven Pro', sans-serif;
   color: black;
@@ -12,6 +12,45 @@ body {
   outline: 1px dotted red;
 }
 */
+/* ----------------------- NAV */
+
+#nav {
+position: fixed;
+width: 100%;
+background-color: rgba(236,240,241, 0.4);
+margin-left: auto;
+margin-right: auto;
+
+}
+#nav a:hover:not(.active) {
+    background-color: #FFFFFF;
+
+}
+
+#linksContainer {
+  height: 25px;
+  width: 960px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1rem;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 10px;
+  border-top: 2px solid black;
+
+}
+
+#links a {
+  color: black;
+  text-decoration: none;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: 90px;
+  margin-right: 90px;
+}
+
+/* ----------------------- Overlay text */
 #photographerOverlay {
   position: relative;
   left: -300px;
@@ -73,8 +112,11 @@ body {
  text-decoration: none;
 }
 
+/* ------------------------------- Header */
+
 #header {
   background-color: #ECF0F1;
+  padding-top: 50px;
 
 }
 #headerContainer{
@@ -109,33 +151,11 @@ body {
   text-align: center;
 }
 
-#linksContainer {
-  height: 35px;
-  width: 960px;
-  background-color: #ECF0F1;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  font-size: 1rem;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  margin-top: 10px;
-  border-top: 2px solid black;
-
-}
-
-#links a {
-  color: black;
-  text-decoration: none;
-  padding-left: 100px;
-  padding-right: 100px;
-}
-
   /* -----------------------About Me */
 #aboutMe {
   height: 540px;
   padding: 60px 0px ;
-  background-color: #036273; opacity: 0.9;
+  background-color: rgba(3,98,115,0.85);
   color: white;
 }
 #aboutMeContainer {
@@ -198,6 +218,10 @@ body {
   text-align: center;
   margin-left: 15px;
   text-decoration: none;
+}
+
+#portfolioImage div:hover:not(.active) {
+    background-color: #FFFFFF;
 }
 
 #portfolioImage {
@@ -328,4 +352,57 @@ body {
   float: left;
   margin-left: 10px;
   margin-bottom: 10px;
+}
+#contactMe {
+  width: 960px;
+  height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#contactInfo {
+  margin-left: auto;
+  margin-right: auto;
+  width: 960px;
+  height: 100px;
+  margin-top: 75px;
+}
+
+#contactInfo h3 {
+  font-size: 3rem;
+  text-decoration: none;
+  margin: 0;
+}
+
+#bottomHeader {
+  height: 150px;
+  color: white;
+  background-color: #036273;
+}
+
+#bottomHeaderLinks {
+  height: 25px;
+  width: 960px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1rem;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  margin-top: 30px;
+}
+
+#bottomHeaderLinks a {
+  text-decoration: none;
+  color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: 90px;
+  margin-right: 90px;
+}
+#bottomHeader p {
+  width: 960px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
 }
